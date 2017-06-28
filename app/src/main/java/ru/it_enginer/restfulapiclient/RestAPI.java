@@ -21,7 +21,8 @@ import java.util.Locale;
 import java.util.Map;
 
 public class RestAPI {
-    private final String urlString = "http://HADYZHENSKOE/Handler1.ashx";
+    //private final String urlString = "http://HADYZHENSKOE/Handler1.ashx";
+    private final String urlString = "http://172.16.3.35/JSONWebAPI/Handler1.ashx";
 
     private static String convertStreamToUTF8String(InputStream stream) throws IOException {
 	    String result = "";

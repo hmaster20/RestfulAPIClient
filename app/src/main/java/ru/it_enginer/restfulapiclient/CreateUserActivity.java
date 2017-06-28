@@ -23,7 +23,7 @@ public class CreateUserActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_user);
         // Show the Up button in the action bar.
-        setupActionBar();
+        //setupActionBar();
 
         etfirstName =(EditText) findViewById(R.id.et_fisrtname);
         etLastName = (EditText) findViewById(R.id.et_lastname);

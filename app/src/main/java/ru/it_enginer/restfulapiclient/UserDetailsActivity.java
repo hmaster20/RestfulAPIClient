@@ -22,7 +22,7 @@ public class UserDetailsActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_details);
         // Show the Up button in the action bar.
-        setupActionBar();
+        //setupActionBar();
 
         tvFisrtName=(TextView)findViewById(R.id.tv_firstname);
         tvLastName=(TextView)findViewById(R.id.tv_lastname);
